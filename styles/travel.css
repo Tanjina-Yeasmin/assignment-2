@@ -84,58 +84,239 @@ nav li a {
 
 
 }
-.card-1, .card-2, .card-3 {
-color: rgba(19, 19, 24, 0.50);
-background: #FFF;
-border-radius: 8px;
-font-size: 1rem;
-font-weight: 400;
+
+.card-1,
+.card-2,
+.card-3 {
+    color: rgba(19, 19, 24, 0.50);
+    background: #FFF;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
-.card-4{
+.card-4 {
     border-radius: 8px;
     background: #FF5400;
     font-size: 1rem;
     font-weight: 400;
 }
-/* main section style */
 
-.popular-tours{
+/* main section style */
+/*tour section */
+main {
+    background: #FFF;
+}
+
+.popular-tours {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px 130px;
     gap: 70px;
 }
-.tours-pic img{
-width: 100%;
-height: 90%px;
+
+.tours-pic img {
+    width: 100%;
+    height: 90%px;
 }
-.tours-title{
+
+.tours-title {
     color: #131318;
     text-align: center;
     font-size: 2rem;
     font-weight: 800;
 }
-.tours-description, .list-item{
+
+.tours-description,
+.list-item {
     color: rgba(19, 19, 24, 0.70);
     font-size: .75rem;
     font-weight: 400;
-    line-height: 26px; 
+    line-height: 26px;
 }
-.tours-last-description{
+
+.tours-last-description {
     color: #5A5A5D;
     font-size: .75rem;
     font-weight: 400;
     line-height: 26px;
 }
-.read-more{
+
+.read-more {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: 0;
+    color: #FFF;
+    font-size: .75rem;
+    font-weight: 800;
+}
+
+/* destination section */
+.destination-container {
+    text-align: center;
+
+}
+
+.destination-title {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.destination-img,
+.destination-img2,
+.destination-img3 {
+    display: flex;
+    border-radius: 16px;
+    gap: 20px;
+    position: relative;
+}
+
+.pic-1,
+.pic-2 {
+    width: 573px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+}
+
+.pic-3 {
+    width: 374px;
+    height: 286px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+.pic-4 {
+    width: 474px;
+    height: 286px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+.pic-5 {
+    width: 274px;
+    height: 286px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+.pic-6 {
+    width: 473px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+.pic-7 {
+    width: 673px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+.choose {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.choose-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    width: 573px;
+    height: 284px;
+}
+
+.choose-card1 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    border-radius: 16px;
+}
+
+.choose-card2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    border-radius: 16px;
+}
+
+.choose-card3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+}
+
+/* deals section */
+.deals-container {
+    text-align: center;
+    gap: 20px;
+}
+
+.deals-back1,
+.deals-back3 {
+    background-image: url('../Images/Group\ 39.png');
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+    width: 90%;
+    height: 100%;
+    
+}
+
+.deals-back2 {
+    background-image: url('../Images/Group\ 40.png');
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+    width: 90%;
+    height: 100%;
+}
+
+.cart-1,
+.cart-3 {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    
+}
+.simple-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.simple-img img{
+    width: 80%;
+    height: 90%px;
+}
+.simple-button{
 border-radius: 8px;
 background: #FF5400;
-width: 174px;
-height: 52px;
 border: 0;
 color: #FFF;
-font-size: .75rem;
+font-family: Mulish;
+font-size: 1rem;
 font-weight: 800;
+width: 124px;
+height: 32px;
 }
