@@ -334,13 +334,51 @@ height: 6940px;
 .form{
 
 }
-.last-img{
+.last-img img{
     width: 70%;
     height: 80%px; 
 }
 .submit{
     border-radius: 8px;
 background: #FF5400;
+}
+/* Footer style */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer{
+    text-align: center;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.foot-img img{
+    width: 40px;
+height: 46.673px;
+flex-shrink: 0;
+}
+.footer-title{
+    color:  #131318;
+font-size: 2.75rem;
+font-weight: 800;
+}
+.footer-description{
+    color: #5A5A5D;
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+}
+.icons-ul > ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+.foot{
+    text-align: center;
+    font-size: .75rem;
 }
 
 /*Responsive for mobile */
