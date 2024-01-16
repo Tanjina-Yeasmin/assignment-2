@@ -1,0 +1,49 @@
+/* Mulish font from google */
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@400;700;900&family=Mulish:wght@400;600;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+</style>
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+/* header styles */
+header{
+    background: #FFF;
+    padding:50px 130px;
+}
+
+ .travel-icon{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+.travel-icon img{
+width: 48px;
+height: 56.008px;
+margin-top: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 1rem;
+    gap: 44px;
+}
+
+nav li a {
+    text-decoration: none;
+    color:  #424247
+}
