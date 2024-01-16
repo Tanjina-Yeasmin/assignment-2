@@ -321,6 +321,27 @@ width: 124px;
 height: 32px;
 }
 
+.daily{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.newslette{
+    width: 1440px;
+height: 6940px;
+}
+.form{
+
+}
+.last-img{
+    width: 70%;
+    height: 80%px; 
+}
+.submit{
+    border-radius: 8px;
+background: #FF5400;
+}
 
 /*Responsive for mobile */
 @media screen and (max-width:600px) {
@@ -336,7 +357,8 @@ height: 32px;
 .destination-img2,
 .destination-img3,
 .choose-card,
-.simple-container
+.simple-container,
+.daily
      {
         flex-direction: column;
     }
@@ -358,6 +380,7 @@ height: 32px;
 .destination-img2,
 .destination-img3,
 .choose-card,
+.daily,
 .simple-container 
      {
         flex-direction: column;
