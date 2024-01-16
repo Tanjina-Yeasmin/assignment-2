@@ -320,3 +320,45 @@ font-weight: 800;
 width: 124px;
 height: 32px;
 }
+
+
+/*Responsive for mobile */
+@media screen and (max-width:600px) {
+    header {
+        padding: 20px;
+    }
+
+    nav,
+    .travel-icon,
+    .main-head-card ,
+    .popular-tours,
+    .destination-img,
+.destination-img2,
+.destination-img3,
+.choose-card,
+.simple-container
+     {
+        flex-direction: column;
+    }
+
+
+
+
+    /* Tablet Devices */
+@media screen and (min-width:600px) and (max-width:992px) {
+    header {
+        padding: 50px;
+    }
+
+    nav,
+    .travel-icon,
+    .main-head-card ,
+    .popular-tours,
+    .destination-img,
+.destination-img2,
+.destination-img3,
+.choose-card,
+.simple-container 
+     {
+        flex-direction: column;
+    }
