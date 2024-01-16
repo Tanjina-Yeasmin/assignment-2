@@ -1,26 +1,26 @@
 /* Mulish font from google */
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@400;700;900&family=Mulish:wght@400;600;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
-</style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@400;700;900&family=Mulish:wght@400;600;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
-*{
+</style>* {
     font-family: 'Mulish', sans-serif;
 }
+
 /* header styles */
-header{
+header {
     background: #FFF;
-    padding:50px 130px;
+    padding: 50px 130px;
 }
 
- .travel-icon{
+.travel-icon {
     display: flex;
     justify-content: space-evenly;
     gap: 16px;
 }
-.travel-icon img{
-width: 48px;
-height: 56.008px;
-margin-top: 30px;
+
+.travel-icon img {
+    width: 48px;
+    height: 56.008px;
+    margin-top: 30px;
 }
 
 nav {
@@ -45,5 +45,97 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color:  #424247
+    color: #424247
+}
+
+/* Header card section */
+.head-background {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    width: 100%;
+    height: 500px;
+}
+
+.head-container {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.explore-title {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.explore-description-title {}
+
+.main-head-card {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    align-items: flex-start;
+    text-align: center;
+    gap: 24px;
+
+
+}
+.card-1, .card-2, .card-3 {
+color: rgba(19, 19, 24, 0.50);
+background: #FFF;
+border-radius: 8px;
+font-size: 1rem;
+font-weight: 400;
+}
+
+.card-4{
+    border-radius: 8px;
+    background: #FF5400;
+    font-size: 1rem;
+    font-weight: 400;
+}
+/* main section style */
+
+.popular-tours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 130px;
+    gap: 70px;
+}
+.tours-pic img{
+width: 100%;
+height: 90%px;
+}
+.tours-title{
+    color: #131318;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.tours-description, .list-item{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.tours-last-description{
+    color: #5A5A5D;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.read-more{
+border-radius: 8px;
+background: #FF5400;
+width: 174px;
+height: 52px;
+border: 0;
+color: #FFF;
+font-size: .75rem;
+font-weight: 800;
 }
